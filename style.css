@@ -5,22 +5,22 @@
 }
 
 body {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
     overflow-x: hidden;
 }
 
 /* Header con gradiente animado */
 .hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
-    background-size: 400% 400%;
-    animation: gradientShift 8s ease infinite;
-    color: white;
+ background: #000; /* Fondo negro puro */
+    position: relative;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    position: relative;
+    justify-content: center;
+    color: #fff;
 }
 
 @keyframes gradientShift {
@@ -133,7 +133,7 @@ body {
 }
 
 .plan-card {
-    background: white;
+    background: #111;
     border-radius: 20px;
     padding: 40px 30px;
     text-align: center;
@@ -219,6 +219,10 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
 }
+/* Títulos y textos en blanco */
+h1, h2, h3, h4, p, li {
+    color: #fff;
+}
 
 .featured .plan-button {
     background: linear-gradient(45deg, #ff6b6b, #ee5a24);
@@ -227,7 +231,7 @@ body {
 /* Servicios adicionales */
 .additional-services {
     padding: 80px 20px;
-    background: #2c3e50;
+    background: #111;
     color: white;
 }
 
@@ -262,7 +266,7 @@ body {
 /* Contacto */
 .contact-section {
     padding: 80px 20px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #111;
     color: white;
     text-align: center;
 }
