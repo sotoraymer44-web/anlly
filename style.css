@@ -22,7 +22,13 @@ body {
     justify-content: center;
     color: #fff;
 }
-
+.hero-logo {
+    max-width: 180px; /* Ajusta el tamaño */
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 @keyframes gradientShift {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
